@@ -1,0 +1,178 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*--Kasgoda Turtle Hatchery--*/
+
+.kasgoda{
+    text-align: center;
+}
+
+.description p{
+font-size:20px ;
+border-style: outset;
+     border-width: 5px;
+     margin: 5%;
+     border-color: green;
+    color:black;
+    animation-name: x;
+    animation-duration: 4s;
+    animation-delay:2s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+
+
+
+
+}@keyframes x{
+    0%{border-color: green;color: white;}
+    25%{border-color: rgb(21, 0, 255);}
+    50%{border-color:blueviolet ;}
+    75%{border-color: brown;}
+    100%{border-color: yellowgreen;}
+
+
+}
+
+
+.kasgoda h3{
+    padding-top: 3%;
+    font-size: 25px;
+}
+
+
+
+.animation1{
+    width: 90%;
+    padding: 20px;
+    margin: 38px auto;	 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.box{
+    width: 300px;
+    height:300px;
+    margin: 0 10px;
+    box-shadow:  0 0 20px rgba(160, 95, 95, 0.1);
+    transition: 1s;
+}
+
+.box img{
+    display: block;
+    width:100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+
+/*--Turtle Conservation Efforts--*/
+
+.conservation{
+    text-align: center;
+}
+
+
+.conservation img{
+     height:400px;
+     width:500px;
+}
+
+
+
+
+/*--Turtle Species--*/
+
+.species{
+    text-align: center;
+}
+
+ .species img{
+    height:400px;
+    width:500px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: green;
+   color:black;
+   animation-name: x;
+   animation-duration: 4s;
+   animation-delay:2s ;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-fill-mode: both;
+
+
+
+
+}@keyframes x{
+   0%{border-color: green;color: white;}
+   25%{border-color: rgb(21, 0, 255);}
+   50%{border-color:blueviolet ;}
+   75%{border-color: brown;}
+   100%{border-color: yellowgreen;}
+
+ }
+
+ .species button{
+    font-weight: bold;
+    width:150px;
+    border-radius: 5px;
+    cursor:pointer; 
+    margin:5%;
+ }
+
+ .species button a{
+    text-decoration: none;
+    color:black;
+ }
+
+ .species button:hover{
+    transform: scale(1.2);
+    background-color: rgb(44, 35, 227);
+ 
+   
+ }
+
+ @media screen and (max-width:767px) {
+    html,body {
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+
+
+     img{
+        width:200px;
+    }
+ }
+
+
+
+ @media screen and (min-width:767px) and (max-width:1023px){
+
+    html,body {
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+
+
+     img{
+        width:500px;
+    }
+ }

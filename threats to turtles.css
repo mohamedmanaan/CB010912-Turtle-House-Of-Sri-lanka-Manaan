@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+
+/* -- Discription about Hikkaduwa Turtle Hatchery -- */
+
+.description{
+    width: 100%;
+    padding: 60px 0 0 0;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.description p{
+font-size: 20px;
+}
+
+
+/*--3 Main Threats To The Turtle Population--*/
+/*Threat1*/
+.main-threats{
+    text-align: center;
+    padding-bottom: 22px;
+}
+
+.threat1 h1{
+    text-align: center;
+    padding-top: 2%;
+    font-size: 35px;
+}
+
+.threat1 img{ 
+    height:500px;
+    width:500px;
+    padding-top: 3%;
+} 
+
+
+.threat1  p{
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+/*Threat2*/
+.threat2 h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 35px;
+}
+
+.threat2 img{ 
+    height:500px;
+    width:500px;
+    padding-top: 3%;
+} 
+
+
+.threat2  p{
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+/*Threat3*/
+.threat3 h1{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 35px;
+}
+
+.threat3 img{ 
+    height:500px;
+    width:500px;
+    padding-top: 3%;
+} 
+
+
+.threat3  p{
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+
+.btn{
+    text-align: center;
+    margin:4%;
+}
+
+.btn button{
+    margin:20px;
+    font-weight: bold;
+    width:150px;
+    border-radius: 5px;
+    cursor:pointer; 
+    margin:5%;
+}
+
+.btn button a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.btn button:hover{
+    transform: scale(1.2);
+    background-color: rgb(4, 71, 97);  
+ }
+
+
+ @media screen and (max-width:767px) {
+    html,body {
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+
+
+     img{
+        width:200px;
+    }
+ }
+
+
+
+ @media screen and (min-width:767px) and (max-width:1023px){
+
+    html,body {
+        width:100%;
+        height:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+
+
+     img{
+        width:500px;
+    }
+ }
+

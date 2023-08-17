@@ -1,0 +1,396 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.header{
+
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/pexels-photo-4652069.jpeg);
+    background-position: center;
+    background-size: cover;
+    position:relative
+}
+
+.header2{
+
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/background1.jpg);
+    position:relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 82vh;
+    position: relative;
+}
+
+.header3{ 
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/background2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 82vh;
+    position: relative;
+ }
+
+.header4{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/background3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 82vh;
+    position: relative;
+}
+
+.header5{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/Kasgoda\ turtle\ hatchery.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 82vh;
+    position: relative;
+}
+
+.header6{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/Bentota\ Turtle\ Hatchery.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 82vh;
+    position: relative;
+}
+
+.header7{
+    min-height: 100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/background5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 82vh;
+    position: relative;
+}
+
+.header8{
+    min-height: 100vh;
+    width:100%;
+    background-image:url(../Images/Buy\ tickets.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+      
+}
+
+.header9{
+    min-height: 100vh;
+    width:100%;
+    background-image:url(../Images/Buy\ tickets.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative; 
+}
+
+
+
+nav{
+display:flex;
+padding:2% 6%;
+justify-content: space-between;
+align-items: center;
+
+}
+
+nav img{
+width:150px;
+
+}
+
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+
+.nav-links ul li{
+list-style: none;
+display:inline-block;
+padding:8px 12px;
+position:relative;
+
+}
+
+.nav-links ul li a{
+    color:rgb(221, 224, 223);
+    text-decoration:none;
+    font-size: 15px;
+    font-family: 'Foldit', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Serif', serif;
+
+}
+
+.nav-links ul li a::after{
+    content: '';
+    width:0%;
+    height:2px;
+    background: #d20c0c;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li a:hover::after{
+    width:100%;
+
+}
+
+
+
+
+.nav-links ul li ul.dropdown li{
+    display:block;
+    padding:10px;
+}
+
+.nav-links ul li ul.dropdown{
+    width:100%;
+    background:transparent;
+    position:absolute;
+    z-index:999;
+    display:none;
+    padding:8px;
+    
+}
+
+
+ul li:hover ul.dropdown{
+    display:block;
+}
+
+ul li:hover ul.dropdown{
+    display:block;
+}
+.text-box{
+    width:90%;
+    color:white;
+    position:absolute;
+top:50%;
+left:50%;
+    transform:translate(-50%,-50%);
+    text-align: centers;
+    
+}
+
+
+
+.text-box h1{
+    font-size: 62px;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Foldit', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Serif', serif;
+
+
+
+
+}
+
+.text-box p{
+    margin:10px 0 40px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Foldit', cursive;
+}
+
+
+
+
+
+
+
+
+@media(max-width:700){px
+    .text-box h1{
+        font-size: 20px;
+
+
+}
+.nav-links ul li{
+    display:block;
+}
+.nav-links{
+    position:absolute;
+    background:#de1507;
+    height:100vh;
+    width:200px;
+    top:0;
+    right:0px;
+    text-align:left;
+    z-index:2;
+}
+
+}
+
+
+
+/* ----Section Footer---- */
+.footer{
+    position:relative;
+    width:100%;
+    background:#3586ff;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer .row {
+    width: 70%;
+    padding-top: 90px;
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;  
+  }
+
+
+  .footer .row .col-left {
+    width: 45%;
+  }
+
+
+  .footer .row .experience,
+  .travel,.happening{
+     position:relative;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     margin: 10px 0;
+     flex-wrap: wrap;
+  }
+
+
+  .footer .row .experience, .travel, .happening li{
+      list-style: none;
+  }
+
+
+  .footer .row .experience, .travel, .happening  li a{
+     
+      color:#fff;
+      margin: 0 10px;
+      display: inline-block;
+      transition: 0.5s;
+  }
+
+
+  .footer .row .experience, .travel, .happening  li a:hover{
+    transform: translateY(-10px);
+  }
+ 
+
+   .footer .wave {
+    position:absolute;
+    top:-50px;
+    left:0;
+    width:100%;
+    height:100px;
+    background: red url(../Images/Turtle\ Footer.png);
+    background-size: 1000px 100px;
+  }
+
+  .footer .wave#wave1{
+    z-index: 1000;
+    opacity:1;
+    bottom:0;
+    animation:animateWave 4s linear infinite;
+  }
+
+
+  
+  .footer .wave#wave2{
+    z-index: 999;
+    opacity:0.5;
+    bottom:10px;
+    animation:animateWave_02 4s linear infinite;
+  }
+
+
+  .footer .wave#wave3{
+    z-index: 1000;
+    opacity:0.2;
+    bottom:15px;
+    animation:animateWave 3s linear infinite;
+  }
+
+
+  .footer .wave#wave4{
+    z-index: 999;
+    opacity:0.7;
+    bottom:20px;
+    animation:animateWave_02 3s linear infinite;
+  }
+  @keyframes animateWave{
+    0%
+  {
+    background-position-x: 1000px;
+  }
+100%
+{
+    background-position-x: 0px;
+}
+  }
+
+  
+  @keyframes animateWave_02{
+    0%
+  {
+    background-position-x: 1000px;
+  }
+100%
+{
+    background-position-x: 0px;
+}
+  }
+ 
+
+@media (max-width:1200){
+    img{
+        width:100%;
+    }
+}

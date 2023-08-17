@@ -1,0 +1,150 @@
+.Tickets h1{
+  text-align: center;
+  background-color: greenyellow;
+  height:180px;
+  font-size: 150px;
+}
+
+
+.details-form{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+  
+ 
+.donations .donate-para-img .donate-head {
+  width: 140%;
+  padding: 0 20px;
+}
+@media (max-width: 420px) {
+  .donations .donate-para-img .donate-head {
+    width: 100%;
+    position: static;
+    clear: both;
+  }
+}
+
+
+   
+    .container{
+        width: 100%;
+        max-width: 650px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 28px;
+        margin: 0 28px;
+        border-radius: 10px;
+        box-shadow: inset -2px 2px 2px white;
+    }
+    
+    .form-title{
+        font-size: 26px;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 6px;
+        color: white;
+        text-shadow: 2px 2px 2px black;
+        border-bottom: solid 1px white;
+    }
+    
+    .main-user-info{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    
+    .user-input-box:nth-child(2n){
+        justify-content: end;
+    }
+    
+    .user-input-box{
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        padding-bottom: 15px;
+    }
+    
+    .user-input-box label{
+        width: 95%;
+        color: white;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 5px 0;
+    }
+    
+    .user-input-box input{
+        height: 40px;
+        width: 95%;
+        border-radius: 7px;
+        outline: none;
+        border: 1px solid grey;
+        padding: 0 10px;
+    }
+    
+    .user-input-box select{
+      height: 40px;
+      width: 95%;
+      border-radius: 7px;
+      outline: none;
+      border: 1px solid grey;
+      padding: 0 10px;
+  }
+
+    /*Summary Table*/
+
+  .summary-table{
+    color: #050606;
+    margin: auto;
+    text-align: center;
+  }
+
+  .summary-table h1{
+    color: #0e0ef6;
+  }
+
+  .table{
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 10%;
+    height: 200px;
+   margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(32,32,32,0.3);
+    background-color: aliceblue;
+  }
+  td{
+    padding: 12px 15px;
+  }
+  
+  
+  
+  .submit-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #76ABDE;
+    border-radius: 10px;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: #49f87d;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 42%;
+  }
+  
+  .submit-btn:hover{
+    border: 1px solid #ccd3da;
+    background: #a8b4be;
+    color: #fff;
+    transition: 0.5s;
+  }
+  
+  

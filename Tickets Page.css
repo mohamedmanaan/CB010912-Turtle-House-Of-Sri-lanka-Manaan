@@ -1,0 +1,281 @@
+.Tickets h1{
+    text-align: center;
+    background-color: greenyellow;
+    height:180px;
+    font-size: 150px;
+}
+
+*{ margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+   
+
+/*--Dates Page--*/
+.dates{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+ 
+}
+
+.wrapper{
+  width:450px;
+  background:#fff;
+  border-radius: 10px;
+}
+
+.wrapper header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding: 25px 30px 10px;
+}
+
+header .current-date{
+  font-size:1.45rem;
+  font-weight: 500;
+}
+
+header .icons span{
+  height:38px;
+  width:38px;
+  color: #878787;
+  font-size: 1.9rem;
+  margin:0 1px;
+  cursor:pointer;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+  
+}
+
+
+header .icons span:hover{
+  background: #f2f2f2;
+}
+
+header .icons span:last-child{
+  margin-right:-10px;
+}
+
+.calender{
+  padding:20px;
+}
+
+.calender ul{
+display:flex;
+list-style: none;
+flex-wrap:wrap;
+text-align: center;
+}
+
+.calender .days{
+  margin-bottom: 5%;
+}
+
+.calender .weeks li{
+  font-weight: 500;
+}
+
+.calender .days li{
+  z-index: 1;
+  cursor:pointer;
+  margin-top: 30px;
+}
+
+.days li.inactive{
+  color:#aaa;
+}
+
+.days li.active{
+  color: #fff;;
+}
+.calender ul li{
+  position: relative;
+  width: calc(100% / 7);
+}
+
+.calender .days li::before{
+  position:absolute;
+  content: "";
+  height:40px;
+  width:40px;
+  top:50%;
+  left:50%;
+  z-index: -1;
+  border-radius: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.days li:hover:before{
+  background:#f2f2f2;
+}
+
+.days li .active::before{
+  background:#9B59B6;
+}
+
+
+/*Guests Page*/
+
+.Guest{
+  margin-left: 38%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  background-color:grey;
+  width:20%;
+  text-align: center;
+
+}
+
+
+.ticket-category input{
+  background: #eee;
+  border: 0;
+  outline: 0;
+  padding: 2px 2px 2px 15px;
+  width: 30px;
+  text-align: center;
+  border-radius: 12px;
+  z-index: 15px;
+}
+
+/*Duration Page--*/
+
+.duration{
+  margin-left: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: rgb(223, 223, 85);
+  width: 560px;
+}
+
+.options{
+  margin-left: 10%;
+}
+select{
+  background: #eee;
+  width: 250px;
+  border-radius: 10px;
+  color: #429aec;
+  font-weight: 600;
+}
+select option{
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+select:hover{
+  border: 3px solid #76ABDE;
+}
+.selected{
+  display: none;
+}
+
+
+
+
+
+
+
+/*Summary Table*/
+
+.summary-table{
+  color: #76ABDE;
+  margin: auto;
+  text-align: center;
+}
+.table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 80%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(32,32,32,0.3);
+}
+td{
+  padding: 12px 15px;
+}
+.sub-head{
+  background-color: #76ABDE;
+  color: #fff;
+}
+
+tfoot{
+  font-size: 16px;
+  background-color: #76ABDE;
+  color: #fff;
+}
+.summary-table tbody tr:nth-child(odd){
+  background-color: #eeeeee;
+}
+.summary-table tbody, tr:last-of-type{
+  border-bottom: 2px solid #7AA1DD;
+}
+
+.submit-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #76ABDE;
+  border-radius: 10px;
+  padding: 12px 34px;
+  font-size: 15px;
+  background: #76ABDE;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.submit-btn:hover{
+  border: 1px solid #ccd3da;
+  background: #a8b4be;
+  color: #fff;
+  transition: 0.5s;
+}
+
+
+
+@media(max-width: 700px){
+  .calender{
+      flex-basis: 100%;
+  }
+  .calender iframe{
+      height: 250px;
+      width: 280px;
+  }
+  
+  .select-time{
+      margin-left: -10px;
+  }
+  .pricing-table thead{
+      font-size: 15px;
+  }
+  .pricing-table tbody{
+      font-size: 13px;
+  }
+  .summary-table tbody{
+      font-size: 13px;
+  }
+  .summary-table tfoot{
+      font-size: 13px;
+  }
+  
+}
+@media(max-width: 700px){
+  
+  .submit-btn{
+      font-size: 12px;
+      margin-left: 10%;
+  }
+}
+  
